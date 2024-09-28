@@ -5,7 +5,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  azureSubscription: '608e56b2-40de-477e-87ad-4b025f037e99'
+  azureSubscription: 'devopsazuresubscription'
   location: 'eastus2'
   resourceGroupName: 'devopsgroup'
   virtualNetworkName: 'devopsvnet'
