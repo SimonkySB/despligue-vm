@@ -5,7 +5,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  azureSubscription: 'Azure para estudiantes'
+  azureSubscription: 'seguridadfSCN'
   location: 'eastus2'
   resourceGroupName: 'seguridadf'
   virtualNetworkName: 'seguridadfnet'
