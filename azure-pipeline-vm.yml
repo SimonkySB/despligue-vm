@@ -5,19 +5,19 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  azureSubscription: 'devopsazuresubscription'
+  azureSubscription: 'seguridadfazuresubscription'
   location: 'eastus2'
-  resourceGroupName: 'devopsgroup'
-  virtualNetworkName: 'devopsvnet'
-  subnetName: 'devopsubnet'
+  resourceGroupName: 'seguridadf'
+  virtualNetworkName: 'seguridadfnet'
+  subnetName: 'seguridadfbnet'
   addressPrefix: '10.0.0.0/16'
   subnetPrefix: '10.0.1.0/24'
-  securityGroupName: 'devopsecgroup'
-  publicIpName: 'devopsip'
-  vmName: 'devopsvm'
+  securityGroupName: 'seguridadfsecgroup'
+  publicIpName: 'seguridadfip'
+  vmName: 'seguridadfvm'
   vmSize: 'Standard_B1s'  # SKU disponible en eastus2
-  adminUsername: 'devopsuser'
-  adminPassword: 'devopspass1234$'  # Contraseña en texto plano (ajustar según necesidad)
+  adminUsername: 'seguridadfuser'
+  adminPassword: 'seguridadfpass1234$'  # Contraseña en texto plano (ajustar según necesidad)
 
   # Variables de la imagen
   imagePublisher: 'Canonical'
